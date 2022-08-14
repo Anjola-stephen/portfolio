@@ -1,0 +1,265 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.1em auto;
+}
+nav li {
+  display: none;
+}
+nav .btn {
+  display: none;
+}
+nav .logo {
+  color: white;
+  margin-top: 1.2em;
+}
+nav .logo span {
+  color: blue;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1em;
+}
+
+svg {
+  width: 1.8em;
+  padding: 2em auto;
+  margin-top: 2em;
+  margin-right: 0.5em;
+  cursor: pointer;
+}
+
+.content {
+  position: absolute;
+  color: white;
+  margin-top: 5em;
+}
+.content h1 {
+  margin-top: 1em;
+  margin-left: 0.5em;
+  font-size: 2.3rem;
+}
+.content h1 span {
+  color: blue;
+}
+.content h3 {
+  color: white;
+  font-size: 1rem;
+  margin: 1em 0;
+  margin-left: 1.2em;
+}
+.content h4 {
+  color: rgb(190, 190, 255);
+  letter-spacing: 0.1em;
+  margin-left: 1.8em;
+  font-size: 0.9em;
+}
+.content .newsletter form {
+  width: 80%;
+  max-width: 100%;
+  position: relative;
+  margin-left: 1em;
+  margin-top: 2em;
+}
+.content .newsletter form input:first-child {
+  display: inline-block;
+  width: 90%;
+  padding: 0.8em;
+  border: 0.2em solid rgb(98, 98, 255);
+  outline: none;
+  border-radius: 5em;
+}
+.content .newsletter form input:last-child {
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 0.6em 1em;
+  border-radius: 5em;
+  margin-left: -6.5em;
+  margin-top: 0.4em;
+  color: white;
+  background-color: blue;
+  -webkit-box-shadow: 0 0 0.2em #000, 0 0 1em #858585;
+          box-shadow: 0 0 0.2em #000, 0 0 1em #858585;
+}
+
+.about {
+  width: 100%;
+  padding: 5em 0;
+  background-color: rgb(26, 26, 26);
+}
+
+.about img {
+  height: 15rem;
+  width: 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+.abouttext {
+  color: white;
+  margin: 1em;
+  margin-top: 2em;
+}
+.abouttext h2 {
+  text-align: center;
+  padding: 2em;
+  font-size: 1.9rem;
+  color: white;
+}
+.abouttext h5 {
+  color: white;
+  text-align: left;
+  letter-spacing: 0.2em;
+  font-size: 1rem;
+  margin-bottom: 1em;
+}
+.abouttext h5 span {
+  color: blue;
+}
+.abouttext p {
+  color: rgb(190, 190, 255);
+  line-height: 1.5em;
+  font-size: 1rem;
+  text-align: left;
+}
+.abouttext button {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  border: 0.2em solid transparent;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  border-radius: 30px;
+  margin: 2em auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.abouttext button:hover {
+  color: white;
+  border: 0.2em solid blue;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.service {
+  background: #101010;
+  width: 100%;
+  padding: 10em 0;
+}
+.service .title h2 {
+  color: white;
+  font-size: 1.9rem;
+  width: 100%;
+  margin: 1.5em auto;
+  text-align: center;
+}
+.service .box {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 4em;
+  display: grid;
+}
+.service .box .card {
+  height: 22em;
+  width: 85%;
+  background: #191919;
+  border-radius: 2em;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0.5em auto;
+  padding: 2em 1em;
+}
+.service .box .card i {
+  font-size: 5rem;
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+  color: blue;
+}
+.service .box .card h5 {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 1em;
+}
+.service .box .card .pra p {
+  color: rgb(190, 190, 255);
+  font-size: 1rem;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+.service .box .card .button {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: white;
+  padding: 0.6em 1.5em;
+  background: blue;
+  border-radius: 1em;
+  margin-top: 10em;
+}
+.service .box .card .button .button:hover {
+  background: transparent;
+  border: 2px solid blue;
+}
+
+.contact {
+  text-align: center;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  background: #191919;
+}
+.contact p {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 3em;
+}
+.contact .button {
+  text-decoration: none;
+  color: white;
+  padding: 0.5em 2em;
+  background: blue;
+  border-radius: 2em;
+}
+.contact .button:hover {
+  background: transparent;
+  border: 2px solid blue;
+}
