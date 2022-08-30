@@ -15,9 +15,9 @@
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url(../Assets/Untitled\ design\ \(13\).png);
+    background-image: url(../Assets/Untitled\ design\ \(15\).png);
     background-repeat: no-repeat;
-    background-position-x: 65%;
+    background-position-x: 60%;
     background-position-y: 100%;
     background-size: cover;
 
@@ -136,8 +136,8 @@ nav{
     background-color: rgb(26, 26, 26);
 }
 .about img{
-    height: 15rem;
-    width: 15rem;
+    height: 100;
+    width: 100%;
     display: flex;
     margin: auto;
 }
@@ -496,10 +496,10 @@ footer p:nth-child(2){
     }
     .hero{
         height: 100vh;
-        background-position-y: 100%;
+        background-position-y: 25%;
     }
     .content{
-        margin-top: 170px;
+        margin-top: 150px;
         margin-left: 100px;
     }
     .main{
@@ -520,8 +520,8 @@ footer p:nth-child(2){
             margin-top: 20px;
         }
         img{
-            height: 60vh;
-            width: 32%;
+            height: 200;
+            width: 100;
         }
     }
     .abouttext{
